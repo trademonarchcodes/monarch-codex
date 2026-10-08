@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Sovereign Desk — MONARCH CODEX">
+<title>Sovereign Desk — MONARCH CODEX</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/portal-pages.css">
+<style>
+.sovereign-hero{position:relative;overflow:hidden;padding:42px 32px;border:1px solid rgba(212,175,55,.28);border-radius:20px;background:radial-gradient(circle at 80% 20%,rgba(212,175,55,.13),transparent 35%),linear-gradient(145deg,#121212,#060606)}
+.sovereign-hero:after{content:"◆";position:absolute;right:35px;bottom:-45px;font-size:180px;color:rgba(212,175,55,.035)}
+.sovereign-hero h2{font:600 clamp(28px,5vw,48px) Cinzel,serif;margin:8px 0 14px}
+.sovereign-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.sovereign-card{padding:24px;border:1px solid rgba(212,175,55,.18);border-radius:16px;background:#0d0d0d}
+.sovereign-card h3{font-family:Cinzel,serif;margin:10px 0}
+.sovereign-card .icon{font-size:25px;color:#d4af37}
+.sovereign-card p{color:#aaa;line-height:1.65}
+.sovereign-note{margin-top:20px;color:#999;font-size:13px}
+@media(max-width:850px){.sovereign-grid{grid-template-columns:1fr}.sovereign-hero{padding:30px 22px}}
+</style>
+</head>
+<body class="portal-page">
+<div class="portal-shell">
+<aside class="portal-side">
+<a class="portal-brand" href="dashboard.html"><img src="assets/monarch-mark.webp" alt="MONARCH CODEX"><div><strong>MONARCH</strong><small>CODEX</small></div></a>
+<nav class="portal-nav">
+<a href="dashboard.html">⌂ Overview</a>
+<a href="kyc.html">✓ KYC Verification</a>
+<a href="investment.html">♜ Investment <span>LOCKED</span></a>
+<a href="academy.html">✦ Academy <span>LOCKED</span></a>
+<a href="intelligence.html">◈ Intelligence <span>LOCKED</span></a>
+<a href="signals.html">◉ Signals <span>LOCKED</span></a>
+<a href="Sovereigndesk.html" class="active">◆ Sovereign Desk</a>
+<a href="referrals.html">♛ Referrals</a>
+<a href="profile.html">◎ My Profile</a>
+</nav>
+</aside>
+<main class="portal-main">
+<div class="portal-top"><button class="mobile-menu">☰ Menu</button><span class="portal-status">SOVEREIGN DESK</span></div>
+<p class="eyebrow">THE SOVEREIGN DESK</p>
+<section class="sovereign-hero">
+<h2>Sovereign Desk</h2>
+<p class="portal-muted">A dedicated command centre for premium market intelligence, signals and strategic opportunities within MONARCH CODEX.</p>
+<a class="portal-btn" href="signals.html">View Signals</a>
+</section>
+<div class="sovereign-grid">
+<article class="sovereign-card"><div class="icon">◉</div><h3>Market Signals</h3><p>Access approved Sovereign Desk market signals and trading intelligence from one dedicated workspace.</p></article>
+<article class="sovereign-card"><div class="icon">◈</div><h3>Market Intelligence</h3><p>Strategic market information and analysis can be presented here as the Sovereign Desk develops.</p></article>
+<article class="sovereign-card"><div class="icon">◆</div><h3>Premium Access</h3><p>Premium Sovereign Desk services can be connected to the existing KYC and subscription approval system.</p></article>
+</div>
+<p class="sovereign-note">Sovereign Desk administration remains separate from the member-facing experience. Admin controls should only be exposed to authorized Sovereign Desk administrators.</p>
+</main>
+</div>
+<script src="js/portal-pages.js"></script>
+</body>
+</html>
